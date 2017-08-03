@@ -1,16 +1,3 @@
-# encodex
-Specify your own set of ASCII characters to encode strings and integers.
-
-## Current Limitations
-- Character set must be 12 to 36 characters (future releases will expand this range)
-
-## Changelog
-### 0.1.1
-- Created encodex based on the "ace" base 13 encoder
-- Removed float encoding to speed up development of string and int encoding
-
-## Usage
-```javascript
 var encodex = require('./encodex');
 
 // validating configuration
@@ -31,5 +18,3 @@ console.log(i); // BDFEB3544
 // decoding an integer
 i = encodex.decode(i);
 console.log(i); // 123456789
-```
-
