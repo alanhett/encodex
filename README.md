@@ -10,6 +10,8 @@ Specify your own set of ASCII characters to encode strings and integers.
 - Removed float encoding to speed up development of string and int encoding
 
 ## Usage
+Edit config.js to specify your own set of ASCII characters
+
 ```javascript
 var encodex = require('./encodex');
 
